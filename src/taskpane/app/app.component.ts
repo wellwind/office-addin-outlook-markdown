@@ -6,25 +6,12 @@ const template = require("./app.component.html");
   selector: "app-home",
   template
 })
-export default class AppComponent {
-  welcomeMessage = "Welcome";
-  subject = "hello";
+export class AppComponent {
+  content = "";
 
-  async run() {
-    /**
-     * Insert your Outlook code here
-     */
-
-    // alert(document.getElementById("item-subject"));
-    this.subject = document.getElementById("item-subject").innerHTML;
-    this.welcomeMessage = "Hello World";
-  }
-
-  hello() {
-    this.subject = Office.context.mailbox.item.subject;
-P
-    alert(Office.context.mailbox.item.body);
-    
-    this.welcomeMessage = "Hello World";
+  insert() {
+    Office.context.mailbox.item.body.setSelectedDataAsync(this.content, {
+      coercionType: Office.CoercionType.Html
+    });
   }
 }
