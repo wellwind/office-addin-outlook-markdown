@@ -22,7 +22,7 @@ export default class AppComponent {
 
   hello() {
     this.subject = Office.context.mailbox.item.subject;
-
+P
     alert(Office.context.mailbox.item.body);
     
     this.welcomeMessage = "Hello World";
