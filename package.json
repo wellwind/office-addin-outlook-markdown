@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve -- --ssl",
     "build": "ng build",
-    "deploy:prepare": "ng build --prod --base-href=/office-addin-outlook-markdow",
+    "deploy:prepare": "ng build --prod --base-href=/office-addin-outlook-markdow --deploy-url=/office-addin-outlook-markdow",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
