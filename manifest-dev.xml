@@ -26,7 +26,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:4200/markdownpane"/>
+        <SourceLocation DefaultValue="https://localhost:4200/index.html#markdownpane"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>

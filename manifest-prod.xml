@@ -78,7 +78,7 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://wellwind.idv.tw/office-addin-outlook-markdown/assets/editor-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Markdownpane.Url" DefaultValue="https://wellwind.idv.tw/office-addin-outlook-markdown/markdownpane"/>
+        <bt:Url id="Markdownpane.Url" DefaultValue="https://wellwind.idv.tw/office-addin-outlook-markdown/index.html#markdownpane"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Markdown Editor"/>
