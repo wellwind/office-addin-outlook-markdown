@@ -26,6 +26,7 @@
     "@angular/router": "~8.2.13",
     "@microsoft/office-js-helpers": "^1.0.1",
     "hammerjs": "^2.0.8",
+    "ngx-markdown": "^8.2.1",
     "office-js": "^0.1.0",
     "office-ui-fabric-js": "^1.3.0",
     "rxjs": "~6.4.0",

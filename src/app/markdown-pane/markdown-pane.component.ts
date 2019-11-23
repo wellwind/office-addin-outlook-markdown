@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MarkdownService } from 'ngx-markdown';
 
 @Component({
   selector: 'app-markdown-pane',
@@ -8,10 +9,14 @@ import { Component, OnInit } from '@angular/core';
 export class MarkdownPaneComponent implements OnInit {
   content = '';
 
+  constructor(private markdownService: MarkdownService) {}
+
   ngOnInit() {}
 
   insert() {
-    Office.context.mailbox.item.body.setSelectedDataAsync(this.content, {
+    const html = this.markdownService.compile(this.content);
+
+    Office.context.mailbox.item.body.setSelectedDataAsync(html, {
       coercionType: Office.CoercionType.Html
     });
   }
