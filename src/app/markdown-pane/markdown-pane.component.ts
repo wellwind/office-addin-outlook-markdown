@@ -15,7 +15,7 @@ export class MarkdownPaneComponent implements OnInit {
 
   insert() {
     const html = this.markdownService.compile(this.content);
-
+    console.log(html);
     Office.context.mailbox.item.body.setSelectedDataAsync(html, {
       coercionType: Office.CoercionType.Html
     });
