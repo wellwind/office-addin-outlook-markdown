@@ -9,9 +9,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Outlook Markdown Add-in"/>
   <Description DefaultValue="Writing Outlook message using markdown."/>
-  <IconUrl DefaultValue="https://wellwind.idv.tw/office-addin-outlook-markdown/assets/editor-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://wellwind.idv.tw/office-addin-outlook-markdown/assets/editor-80.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <IconUrl DefaultValue="https://wellwind.idv.tw/office-addin-outlook-markdown/assets/editor-128.png"/>
+  <HighResolutionIconUrl DefaultValue="https://wellwind.idv.tw/office-addin-outlook-markdown/assets/editor-128.png"/>
+  <SupportUrl DefaultValue="https://github.com/wellwind/office-addin-outlook-markdown/issues"/>
   <AppDomains>
     <AppDomain>wellwind.idv.tw</AppDomain>
   </AppDomains>
